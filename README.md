@@ -1,5 +1,6 @@
 # CSE6324ASE - Slither, a static analysis framework with the new detectors
   The plan is to extend the Slither analysis framework by adding two detectors. Slither is the open-source static analysis framework for Solidity that may be used to find holes in smart contracts. Red, yellow, and green are used by Slither to denote the impact and severity of vulnerabilities, correspondingly, for high, medium, low, and informational. The project consists of adding two detectors as follows:
+
 i)	Detector to detect unencrypted private data on-chain
 ii)	Detector to detect incorrect constructor name
 
