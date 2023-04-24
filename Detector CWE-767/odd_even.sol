@@ -3,7 +3,6 @@
  * @author: https://github.com/manojpramesh
  * Modified by Kaden Zipfel
  */
-
 pragma solidity 0.5.0;
 
 contract OddEven {
@@ -22,7 +21,7 @@ contract OddEven {
             if (count == 2) selectWinner();
     }
 
-    function selectWinner() private {
+    function selectWinner() public {
             uint n = players[0].number + players[1].number;
             (bool success, ) = players[n%2].addr.call.value(address(this).balance)("");
             require(success, 'transfer failed');
