@@ -25,8 +25,8 @@ The idea of adding 2nd detector is to find incorrect constructor names. Construc
     sh
     slither <input_contract_file.sol>
 -       To change the version of solc compiler using solc-select, run the following command:
-    solc-select install <version>
-    solc-select use <version>
+            solc-select install <version>
+            solc-select use <version>
 -       Proposed detector files can be found in CSE6324ASE/slither/detectors/examples/
     
 
